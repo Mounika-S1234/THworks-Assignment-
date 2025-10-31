@@ -1,0 +1,21 @@
+{
+  "name": "task-tracker-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "inherits": "^2.0.4",
+    "object-assign": "^4.1.1",
+    "side-channel": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "task-tracker-root",
+  "version": "1.0.0",
+  "description": "Root package for task-tracker project",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.28.5"
+  }
+}
