@@ -13,9 +13,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
-    "@vitejs/plugin-react": "^4.7.0",
-    "rollup": "^4.52.5",
-    "vite": "^5.4.21"
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
   }
 }
